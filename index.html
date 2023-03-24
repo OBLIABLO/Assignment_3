@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#Pseudo-Elements">Pseudo-Elements</a></li>
+            <li><a href="#Pseudo-Class">Pseudo-classes</a></li>
+            <li><a href="#animation-transition">CSS Animations</a></li>
+        </ul>
+        <hr>
+    </div>
+        <div class="title">
+            Assignment 3
+        </div>
+
+    <div class="container">
+        <p class="assignment-title-content">
+            We will be learning about several topics in this assignment, including pseudo-elements and pseudo-classes, CSS transitions, transformations, and CSS animation.
+        </p>
+    </div>
+
+    <div class="container1">
+        <div class="pseudo-title" id="Pseudo-Elements">
+            Pseudo-Elements      
+        </div>
+        <div class="pseudo-content-1">
+            <p class="p-content-1">
+                Pseudo-elements are special CSS selectors that allow you to style specific parts of an element's content without adding extra markup. They are denoted by the double colon (::) notation in CSS, and can be used to add decorative or functional content to an element, such as an icon, a border, or a counter.
+            </p>
+            <p class="p-content-1">
+                There are two main types of pseudo-elements: <span>::before </span>and <span>::after</span>. The ::before pseudo-element allows you to insert content before the element, while the ::after pseudo-element allows you to insert content after the element.
+            </p>
+            <div class="pseudo-ba">
+                ::before     
+            </div>
+             <div class="container2">
+                    <p class="p-content-2">
+                        Here we have a list of programming languages. Using the ::before pseudo element, we can add any character, emoji or some content before the element
+                    </p>
+                    <ul id="list1">
+                        <li>Html</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>Python</li>
+                        <li>Rust</li>
+                    </ul>
+            </div>
+            <div class="pseudo-ba">
+                ::after  
+            </div>
+            <div class="container2">
+                <p class="p-content-2">
+                    Taking the same list of programming languages from above we can use the ::after pseudo element to add any character, emoji or some content before the element
+                </p>
+                <ul id="list2">
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Python</li>
+                    <li>Rust</li>
+                </ul>
+            </div>
+            <p class="p-content-1">
+                In addition to the ::before and ::after pseudo-elements, CSS also provides other pseudo-elements that allow you to style specific parts of an element's content. Here are a few examples:
+            </p>
+            <div class="pseudo-ba">
+                ::selection     
+            </div>
+            <div class="container2">
+                <p class="p-content-2">
+                    This pseudo-element allows you to style the portion of text that is currently selected by the user. For example, you can change the background color and text color of selected text. Try to select any text.
+                </p>
+            </div>
+            <div class="pseudo-ba">
+                ::marker    
+            </div>
+            <div class="container2">
+                <p class="p-content-2">
+                    This pseudo-element allows you to style the marker of a list item (i.e., the bullet or number).
+                </p>
+                <p class="p-content-2">
+                    Taking the same list of programming languages from above we'll change the bullets color to white and also change the shape using the ::marker pseudo element.
+                </p>
+                <ul id="list3">
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Python</li>
+                    <li>Rust</li>
+                </ul>
+            </div>
+            <div class="pseudo-ba">
+                ::first-letter
+            </div>
+            <div class="container2">
+                <p class="p-content-2">
+                    This pseudo-element allows you to style the first letter of a block-level element. For example, you can make the first letter of a paragraph larger and bolder. 
+                </p>
+                <p class="p-content-2" id="first">
+                    Oh, wondrous Pseudo Element,
+                    Invisible to all eyes,
+                    Yet in the realm of style and class,
+                    Your power and beauty lies.
+                </p>
+            </div>
+            <div class="pseudo-ba">
+                ::first-line
+            </div>
+            <div class="container2">
+                <p class="p-content-2">
+                    This pseudo-element allows you to style the first line of a block-level element. For example, you can change the font family and color of the first line of a paragraph.
+                </p>
+                <p class="p-content-2" id="line">
+                    Oh, wondrous Pseudo Element,
+                    Invisible to all eyes,
+                    Yet in the realm of style and class,
+                    Your power and beauty lies.
+                </p>
+            </div>
+        </div>
+    </div>
+<!--Pseudo class -->
+<!--Pseudo class -->
+<!--Pseudo class -->
+    <div class="container3">
+        <div class="pseudo-class-title" id="Pseudo-Class">
+            Pseudo-Classes
+        </div>
+         <div class="pseudo-content-2">
+            <p class="p-content-3">
+                pseudo-class is a keyword that is added to a selector to style a specific state or condition of an element. Pseudo-classes are used to style elements that cannot be selected by regular selectors, such as links that have been visited, form elements that are being interacted with, or elements that are the first child of their parent.<br><br>
+
+                There are several types of pseudo-classes in CSS, including:
+            </p>
+            <div class="pseudo-ba-1">
+                :hover     
+            </div>
+             <div class="container4">
+                    <p class="p-content-4">
+                        styles an element when it's being hovered over by the mouse pointer (for example, hover over the blocks)
+                    </p>
+                    <div class="flex-container">
+                        <div class="block block-1">Block 1</div>
+                        <div class="block block-2">Block 2</div>
+                        <div class="block block-3">Block 3</div>
+                        <div class="block block-4">Block 4</div>
+                    </div>
+            </div>
+            <div class="pseudo-ba-1">
+                :active     
+            </div>
+             <div class="container4">
+                    <p class="p-content-4">
+                        styles an element while it's being clicked or interacted with (for example, click on the blocks that say "click me")
+                    </p>
+                    <div class="flex-container">
+                        <div class="block block-5">click me</div>
+                        <div class="block block-6">click me</div>
+                        <div class="block block-7">click me</div>
+                        <div class="block block-8">click me</div>
+                    </div>
+            </div>  
+            <div class="pseudo-ba-1">
+                :focus     
+            </div>
+             <div class="container4">
+                    <p class="p-content-4">
+                        styles an element when it's in focus (for example, Click on the "focus" buttons).
+                    </p>
+                    <div class="flex-container">
+                            <button class="button-1">
+                                Focus
+                            </button>
+                            <button class="button-2">
+                                Focus
+                            </button>
+                            <button class="button-3">
+                                Focus
+                            </button>
+                            <button class="button-4">
+                                Focus
+                            </button>                     
+                    </div>
+            </div>   
+            <div class="pseudo-ba-1">
+                :first-child    
+            </div>
+             <div class="container4">
+                    <p class="p-content-4">
+                        styles the first child element of a parent element.
+                    </p>
+                        <ul class="first-parent">
+                            <li>Element 1</li>
+                            <li>Element 2</li>
+                            <li>Element 3</li>
+                            <li>Element 4</li>
+                            <li>Element 5</li>
+                            <li>Element 6</li>
+                        </ul>             
+            </div>  
+            <div class="pseudo-ba-1">
+                :last-child
+            </div>
+             <div class="container4">
+                    <p class="p-content-4">
+                        styles the last child element of a parent element.
+                    </p>
+                    <ul class="last-parent">
+                        <li>Element 1</li>
+                        <li>Element 2</li>
+                        <li>Element 3</li>
+                        <li>Element 4</li>
+                        <li>Element 5</li>
+                        <li>Element 6</li>
+                    </ul>    
+            </div> 
+            <div class="pseudo-ba-1">
+                :nth-child() 
+            </div>
+             <div class="container4">
+                    <p class="p-content-4">
+                        styles an element that is the nth child of its parent (where "n" can be a number or a formula).<br><br>
+                        For this example, used <span>:nth-child(odd)</span> and <span>:nth-child(even) </span> to give two different colors for oadd and even elements.
+                    </p>
+                    <ul class="nth-parent">
+                        <li>Element 1</li>
+                        <li>Element 2</li>
+                        <li>Element 3</li>
+                        <li>Element 4</li>
+                        <li>Element 5</li>
+                        <li>Element 6</li>
+                        <li>Element 7</li>
+                    </ul> 
+            </div>           
+        </div>
+    </div>
+<!--CSS Animations and Transitions-->
+<!--CSS Animations and Transitions-->
+<!--CSS Animations and Transitions-->
+<div class="container5">
+    <div class="animation-title" id="animation-transition">
+        CSS Animations & Transitions
+    </div>
+    <div class="pseudo-content-3">
+        <p class="p-content-5">
+            CSS animations and transitions are two ways of creating dynamic and interactive effects in web pages using CSS.<br><br>
+
+            <span>Transitions</span> are a way to animate changes in CSS properties over time. When a transition is applied to an element, it will smoothly transition between the original and new values of the property over a specified duration. For example, you can use transitions to create a hover effect that changes the color or opacity of an element when the user hovers over it.<br><br>
+
+            <span>Animations</span>, on the other hand, are a more complex way of creating dynamic effects in web pages. Animations can be applied to an element to create complex, multi-step animations that can include multiple changes in CSS properties over a specified duration. Animations are defined using <span>keyframes</span>, which specify the values of CSS properties at specific points in time during the animation.
+        </p>
+        <div class="pseudo-ba-2">
+            Animation     
+        </div>
+         <div class="container6">
+            <div class="ball clr-white" style="float: left; animation-duration: 0.7s; animation-delay: 0.0s;"></div>
+            <div class="ball clr-blue" style="float: none; animation-duration: 0.7s; animation-delay: 0.3s;"></div>
+            <div class="ball clr-violet" style="float: right; animation-duration: 0.6s; animation-delay: 0.2s;"></div>
+        </div>
+        <div class="pseudo-ba-2">
+            Transform & Transition     
+        </div> 
+         <div class="container7">
+            <div class="square one"></div>
+            <div class="square two"></div>
+        </div>        
+    </div>
+</div>
+    <div onclick="scrollToTop()" class="scrollTop">Tap</div>
+    <script>
+        function scrollToTop(){
+            window.scrollTo(0, 0);
+        }
+    </script>
+</body>
+</html>

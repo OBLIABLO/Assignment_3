@@ -1,0 +1,1197 @@
+html{
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: monospace;
+    color: white;
+    background-color: black;
+    scroll-behavior: smooth;
+}
+hr{
+    height: 3px;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 0 0 .1rem #fff,
+    0 0 .1rem #fff,
+    0 0 0.8rem rgb(215, 19, 254),
+    0 0 0.5rem rgb(215, 19, 254),
+    0 0 2rem rgb(215, 19, 254),
+    inset 0 0 0.3rem rgb(215, 19, 254);
+}
+ .navbar ul{
+    list-style: none;
+    background: #131313;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+ }
+
+ .navbar li{
+    display: inline-block;
+    text-shadow:
+    0 0 1.5px #fff,
+    0 0 1.5px #fff,
+    0 0 1.5px #fff,
+    0 0 10px rgb(215, 19, 254),
+    0 0 82px  rgb(215, 19, 254),
+    0 0 3px   rgb(215, 19, 254),
+    0 0 2px  rgb(0, 0, 0),
+    0 0 3px  rgb(0, 0, 0);
+ }
+ .navbar a{
+    text-decoration: none;
+    color: #ffffff;
+    width: 200px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+ }
+ .navbar a:hover{
+    box-shadow: 0 0 .1rem #fff,
+    0 0 .1rem #fff,
+    0 0 0.8rem rgb(215, 19, 254),
+    0 0 0.5rem rgb(215, 19, 254),
+    0 0 2rem rgb(215, 19, 254),
+    inset 0 0 0.3rem rgb(215, 19, 254);
+ }
+span{
+    color: orangered;
+    /* font-size: 22px; */
+}
+.title{
+    margin: 0 auto;
+    width: 50%;
+    font-size: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+    font-weight:400;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgb(0, 0, 0));
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+
+    /* border: 0.2rem solid #fff;
+    border-radius: 1rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.8rem rgb(188, 19, 254),
+              0 0 0.5rem #bc13fe,
+              0 0 2.2rem #bc13fe,
+              inset 0 0 0.6rem #bc13fe; */
+   margin-bottom: 80px;
+}
+@keyframes animate{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color: #000000;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color: #fff;
+        text-shadow: 0 0 10px #9403f4,
+                    0 0 20px #9403f4,
+                    0 0 40px #9403f4,
+                    0 0 80px #9403f4,
+                    0 0 160px #9403f4;
+
+    }
+}
+.container{
+    margin-top: 50px;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
+ 
+}
+.container1{
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 10px;
+    border: 0.2rem solid #fff;
+    border-radius: 1rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.8rem rgb(254, 19, 223),
+              0 0 0.5rem rgb(254, 19, 223),
+              0 0 2rem rgb(254, 19, 223),
+              inset 0 0 0.3rem rgb(254, 19, 223);
+ 
+}
+.container2{
+    margin: 0 auto;
+    margin-bottom: 60px;
+    width: 80%;
+    border-radius: 1rem;
+    padding: 10px;
+    border: 0.2rem solid #fff;
+    border-radius: 1rem;
+    padding: 20px;
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.4rem   rgb(255, 0, 157),
+              0 0 0.3rem   rgb(255, 0, 157),
+              0 0 2rem   rgb(255, 0, 157),
+              inset 0 0 0.3rem  rgb(255, 0, 157);
+ 
+}
+.container3{
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 80px;
+    padding: 10px;
+    border: 0.2rem solid #fff;
+    border-radius: 1rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.8rem rgb(51, 105, 255),
+              0 0 0.5rem rgb(51, 105, 255),
+              0 0 2rem rgb(51, 105, 255),
+              inset 0 0 0.3rem rgb(51, 105, 255);
+ 
+}
+.container4{
+    margin: 0 auto;
+    margin-bottom: 60px;
+    width: 80%;
+    border-radius: 1rem;
+    padding: 10px;
+    border: 0.2rem solid #fff;
+    border-radius: 1rem;
+    padding: 20px;
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.4rem   rgb(0, 217, 255),
+              0 0 0.3rem   rgb(0, 217, 255),
+              0 0 2rem   rgb(0, 217, 255),
+              inset 0 0 0.3rem  rgb(0, 217, 255);
+ 
+}
+.container5{
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 80px;
+    padding: 10px;
+    border: 0.2rem solid #fff;
+    border-radius: 1rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.8rem  rgb(144, 25, 255),
+              0 0 0.5rem   rgb(144, 25, 255),
+              0 0 2rem  rgb(144, 25, 255),
+              inset 0 0 0.3rem  rgb(144, 25, 255);
+ 
+}
+.container6{
+    margin: 0 auto;
+    margin-bottom: 60px;
+    text-align: center;
+    width: 80%;
+    height: 50vh;
+    border-radius: 1rem;
+    padding: 10px;
+    border: 0.2rem solid #fff;
+    border-radius: 1rem;
+    padding: 20px;
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.4rem   rgb(194, 129, 255),
+              0 0 0.3rem   rgb(194, 129, 255),
+              0 0 2rem   rgb(194, 129, 255),
+              inset 0 0 0.3rem  rgb(194, 129, 255);
+ 
+}
+.container7{
+    margin: 0 auto;
+    margin-bottom: 60px;
+    width: 80%;
+    /* height: 70vh; */
+    border-radius: 1rem;
+    padding: 10px;
+    border: 0.2rem solid #fff;
+    border-radius: 1rem;
+    padding: 20px;
+    box-shadow: 0 0 .1rem #fff,
+    0 0 .1rem #fff,
+    0 0 0.4rem   rgb(214, 170, 255),
+    0 0 0.3rem   rgb(214, 170, 255),
+    0 0 2rem   rgb(214, 170, 255),
+    inset 0 0 0.3rem  rgb(214, 170, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+ 
+}
+.assignment-title-content{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow:
+      0 0 1px #fff,
+      0 0 1px #fff,
+      0 0 1px #fff,
+      0 0 10px  #9403f4,
+      0 0 10px  #9403f4,
+      0 0 10px  #9403f4,
+      0 0 10px  rgb(0, 0, 0),
+      0 0 10px  rgb(0, 0, 0);
+}
+.pseudo-title{
+    margin: 0 auto;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight:400;
+    text-shadow:
+      0 0 3px #fff,
+      0 0 3px #fff,
+      0 0 2px #fff,
+      0 0 10px  rgb(254, 19, 223),
+      0 0 82px  rgb(254, 19, 223),
+      0 0 32px  rgb(254, 19, 223),
+      0 0 12px  rgb(0, 0, 0),
+      0 0 30px  rgb(0, 0, 0);
+
+   margin-bottom: 40px;
+}
+.pseudo-class-title{
+    margin: 0 auto;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight:400;
+    text-shadow:
+      0 0 3px #fff,
+      0 0 3px #fff,
+      0 0 2px #fff,
+      0 0 10px   rgb(51, 105, 255),
+      0 0 82px  rgb(51, 105, 255),
+      0 0 32px  rgb(51, 105, 255),
+      0 0 12px  rgb(0, 0, 0),
+      0 0 30px  rgb(0, 0, 0);
+
+   margin-bottom: 40px;
+}
+.animation-title{
+    margin: 0 auto;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight:400;
+    text-shadow:
+      0 0 3px #fff,
+      0 0 3px #fff,
+      0 0 2px #fff,
+      0 0 10px    rgb(144, 25, 255),
+      0 0 82px    rgb(144, 25, 255),
+      0 0 32px    rgb(144, 25, 255),
+      0 0 12px  rgb(0, 0, 0),
+      0 0 30px  rgb(0, 0, 0);
+
+   margin-bottom: 40px;
+}
+.pseudo-ba{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    text-align: center;
+    text-shadow:
+    0 0 3px #fff,
+    0 0 3px #fff,
+    0 0 2px #fff,
+    0 0 10px rgb(255, 0, 157),
+    0 0 82px  rgb(255, 0, 157),
+    0 0 3px   rgb(255, 0, 157),
+    0 0 2px  rgb(0, 0, 0),
+    0 0 3px  rgb(0, 0, 0);
+
+}
+.pseudo-ba-1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    text-align: center;
+    text-shadow:
+    0 0 3px #fff,
+    0 0 3px #fff,
+    0 0 2px #fff,
+    0 0 10px rgb(0, 225, 255),
+    0 0 82px  rgb(0, 255, 255),
+    0 0 3px  rgb(0, 255, 255),
+    0 0 2px  rgb(0, 0, 0),
+    0 0 3px  rgb(0, 0, 0);
+
+}
+.pseudo-ba-2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    text-align: center;
+    text-shadow:
+    0 0 3px #fff,
+    0 0 3px #fff,
+    0 0 2px #fff,
+    0 0 10px rgb(68, 0, 255),
+    0 0 82px  rgb(68, 0, 255),
+    0 0 3px  rgb(68, 0, 255),
+    0 0 2px  rgb(0, 0, 0),
+    0 0 3px  rgb(0, 0, 0);
+
+}
+.pseudo-content-1{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* padding: 10px; */
+}
+.pseudo-content-2{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* padding: 10px; */
+}
+.pseudo-content-3{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* padding: 10px; */
+}
+.p-content-1{
+    font-size: 25px;
+    color: rgb(255, 95, 183);
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.p-content-3{
+    font-size: 25px;
+    color: rgb(95, 204, 255);
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.p-content-2{
+    font-size: 25px;
+    color:  rgb(255, 0, 157);
+}
+.p-content-4{
+    font-size: 25px;
+    color:  rgb(95, 204, 255);
+    margin-bottom: 20px;
+}
+.p-content-5{
+    font-size: 25px;
+    color: rgb(189, 131, 255);
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.p-content-6{
+    font-size: 25px;
+    color:  rgb(170, 95, 255);
+    margin-bottom: 20px;
+}
+#list1{
+    font-size: 25px;
+    color:  rgb(255, 0, 157);
+}
+#list1 li::before{
+    content: "🤜";
+}
+#list2{
+    font-size: 25px;
+    color:  rgb(255, 0, 157);
+}
+#list3{
+    font-size: 25px;
+    color:  rgb(255, 0, 157);
+}
+#list2 li::after{
+    content: "✔";
+    color: greenyellow;
+}
+#list3 li::marker{
+    /* color: rgb(0, 225, 255); */
+  content: "\2020 "; 
+  color: #fff; 
+  text-shadow: 
+            0 0 10px #fff, 
+            0 0 10px #fff, 
+            0 0 10px #fff, 
+            0 0 50px #0b38ff, 
+            0 0 80px #1641ff, 
+            0 0 80px #1654ff, 
+            0 0 100px #1553ff;
+
+}
+p::selection{
+    color: greenyellow;
+    background: rgb(19, 19, 19);
+}
+#first::first-letter{
+font-size: 50px;
+font-style: italic;
+font-weight: bolder;
+color: white;
+}
+#line::first-line{
+    color: orange;
+    font-family:fantasy;
+    font-size: 25px;
+}
+.block{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding: 1em;
+    font-size: 20px;
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #000000;
+    border: 2px solid rgb(111, 233, 255);
+    border-radius: 10px;
+
+}
+.block-1:hover{
+    text-shadow:
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 10px rgb(217, 251, 255),
+    0 0 82px  rgb(217, 251, 255),
+    0 0 3px  rgb(217, 251, 255),
+    0 0 2px  rgb(0, 0, 0),
+    0 0 3px  rgb(0, 0, 0);
+
+    background-color: #000000;
+
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.4rem   rgb(217, 251, 255),
+              0 0 0.3rem   rgb(217, 251, 255),
+              0 0 2rem   rgb(217, 251, 255),
+              inset 0 0 0.3rem  rgb(217, 251, 255);
+}
+.block-2:hover{
+
+    text-shadow:
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 10px rgb(0, 225, 255),
+    0 0 82px  rgb(0, 255, 255),
+    0 0 3px  rgb(0, 255, 255),
+    0 0 2px  rgb(0, 0, 0),
+    0 0 3px  rgb(0, 0, 0);
+
+    background-color: #000000;
+
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.4rem   rgb(0, 217, 255),
+              0 0 0.3rem   rgb(0, 217, 255),
+              0 0 2rem   rgb(0, 217, 255),
+              inset 0 0 0.3rem  rgb(0, 217, 255);
+}
+.block-3:hover{
+    text-shadow:
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 10px rgb(0, 255, 115),
+    0 0 82px  rgb(0, 255, 115),
+    0 0 3px  rgb(0, 255, 115),
+    0 0 2px  rgb(0, 0, 0),
+    0 0 3px  rgb(0, 0, 0);
+
+    background-color: #000000;
+
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.4rem   rgb(0, 255, 115),
+              0 0 0.3rem   rgb(0, 255, 115),
+              0 0 2rem   rgb(0, 255, 115),
+              inset 0 0 0.3rem  rgb(0, 255, 115);
+}
+.block-4:hover{
+    text-shadow:
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 10px rgb(105, 41, 255),
+    0 0 82px  rgb(105, 41, 255),
+    0 0 3px  rgb(105, 41, 255),
+    0 0 2px  rgb(0, 0, 0),
+    0 0 3px  rgb(0, 0, 0);
+
+    background-color: #000000;
+
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.4rem   rgb(105, 41, 255),
+              0 0 0.3rem   rgb(105, 41, 255),
+              0 0 2rem   rgb(105, 41, 255),
+              inset 0 0 0.3rem  rgb(105, 41, 255);
+}
+.block-5:active{
+    text-shadow:
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 10px rgb(217, 251, 255),
+    0 0 82px  rgb(217, 251, 255),
+    0 0 3px  rgb(217, 251, 255),
+    0 0 2px  rgb(0, 0, 0),
+    0 0 3px  rgb(0, 0, 0);
+
+    background-color: #000000;
+
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.4rem   rgb(217, 251, 255),
+              0 0 0.3rem   rgb(217, 251, 255),
+              0 0 2rem   rgb(217, 251, 255),
+              inset 0 0 0.3rem  rgb(217, 251, 255);
+}
+.block-6:active{
+    text-shadow:
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 10px rgb(0, 225, 255),
+    0 0 82px  rgb(0, 255, 255),
+    0 0 3px  rgb(0, 255, 255),
+    0 0 2px  rgb(0, 0, 0),
+    0 0 3px  rgb(0, 0, 0);
+
+    background-color: #000000;
+
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.4rem   rgb(0, 217, 255),
+              0 0 0.3rem   rgb(0, 217, 255),
+              0 0 2rem   rgb(0, 217, 255),
+              inset 0 0 0.3rem  rgb(0, 217, 255);
+}
+.block-7:active{
+    text-shadow:
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 10px rgb(0, 255, 115),
+    0 0 82px  rgb(0, 255, 115),
+    0 0 3px  rgb(0, 255, 115),
+    0 0 2px  rgb(0, 0, 0),
+    0 0 3px  rgb(0, 0, 0);
+
+    background-color: #000000;
+
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.4rem   rgb(0, 255, 115),
+              0 0 0.3rem   rgb(0, 255, 115),
+              0 0 2rem   rgb(0, 255, 115),
+              inset 0 0 0.3rem  rgb(0, 255, 115);
+}
+.block-8:active{
+    text-shadow:
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 10px rgb(105, 41, 255),
+    0 0 82px  rgb(105, 41, 255),
+    0 0 3px  rgb(105, 41, 255),
+    0 0 2px  rgb(0, 0, 0),
+    0 0 3px  rgb(0, 0, 0);
+
+    background-color: #000000;
+
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.4rem   rgb(105, 41, 255),
+              0 0 0.3rem   rgb(105, 41, 255),
+              0 0 2rem   rgb(105, 41, 255),
+              inset 0 0 0.3rem  rgb(105, 41, 255);
+}
+button{
+    width: 130px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    background-color: black;
+    border: 2px solid rgb(111, 233, 255);
+}
+
+.button-1:focus{
+    text-shadow:
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 10px rgb(217, 251, 255),
+    0 0 82px  rgb(217, 251, 255),
+    0 0 3px  rgb(217, 251, 255),
+    0 0 2px  rgb(0, 0, 0),
+    0 0 3px  rgb(0, 0, 0);
+
+    background-color: #000000;
+
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.4rem   rgb(217, 251, 255),
+              0 0 0.3rem   rgb(217, 251, 255),
+              0 0 2rem   rgb(217, 251, 255),
+              inset 0 0 0.3rem  rgb(217, 251, 255);
+}
+.button-2:focus{
+    text-shadow:
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 10px rgb(0, 225, 255),
+    0 0 82px  rgb(0, 255, 255),
+    0 0 3px  rgb(0, 255, 255),
+    0 0 2px  rgb(0, 0, 0),
+    0 0 3px  rgb(0, 0, 0);
+
+    background-color: #000000;
+
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.4rem   rgb(0, 217, 255),
+              0 0 0.3rem   rgb(0, 217, 255),
+              0 0 2rem   rgb(0, 217, 255),
+              inset 0 0 0.3rem  rgb(0, 217, 255);
+}
+.button-3:focus{
+    text-shadow:
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 10px rgb(0, 255, 115),
+    0 0 82px  rgb(0, 255, 115),
+    0 0 3px  rgb(0, 255, 115),
+    0 0 2px  rgb(0, 0, 0),
+    0 0 3px  rgb(0, 0, 0);
+
+    background-color: #000000;
+
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.4rem   rgb(0, 255, 115),
+              0 0 0.3rem   rgb(0, 255, 115),
+              0 0 2rem   rgb(0, 255, 115),
+              inset 0 0 0.3rem  rgb(0, 255, 115);
+}
+.button-4:focus{
+    text-shadow:
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 10px rgb(105, 41, 255),
+    0 0 82px  rgb(105, 41, 255),
+    0 0 3px  rgb(105, 41, 255),
+    0 0 2px  rgb(0, 0, 0),
+    0 0 3px  rgb(0, 0, 0);
+
+    background-color: #000000;
+
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.4rem   rgb(105, 41, 255),
+              0 0 0.3rem   rgb(105, 41, 255),
+              0 0 2rem   rgb(105, 41, 255),
+              inset 0 0 0.3rem  rgb(105, 41, 255);
+}
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-bottom: 20px;
+}
+.first-parent li{
+    color: cyan;
+    font-size: 20px;
+    font-weight: 800;
+}
+.last-parent li{
+    color: cyan;
+    font-size: 20px;
+    font-weight: 800;
+}
+.nth-parent li{
+    color: cyan;
+    font-size: 20px;
+    font-weight: 800;
+}
+.first-parent li:first-child{
+    box-shadow: 0 0 .1rem #fff,
+    0 0 .1rem #fff,
+    0 0 0.4rem   rgb(0, 217, 255),
+    0 0 0.3rem   rgb(0, 217, 255),
+    0 0 2rem   rgb(0, 217, 255),
+    inset 0 0 0.3rem  rgb(0, 217, 255);
+    width: 95%;
+    color: white;
+}
+
+.last-parent li:last-child{
+    box-shadow: 0 0 .1rem #fff,
+    0 0 .1rem #fff,
+    0 0 0.4rem   rgb(0, 217, 255),
+    0 0 0.3rem   rgb(0, 217, 255),
+    0 0 2rem   rgb(0, 217, 255),
+    inset 0 0 0.3rem  rgb(0, 217, 255);
+    width: 95%;
+    color: white;
+}
+.nth-parent li:nth-child(odd){
+    box-shadow: 0 0 .1rem #fff,
+    0 0 .1rem #fff,
+    0 0 0.1rem   rgb(0, 255, 242),
+    0 0 0.1rem   rgb(0, 255, 221),
+    0 0 0.5rem   rgb(0, 255, 221),
+    inset 0 0 0.1rem  rgb(0, 255, 234);
+    width: 95%;
+    color: rgb(0, 0, 0);
+    background-color: #9ee0fa;
+}
+.nth-parent li:nth-child(even){
+    box-shadow: 0 0 .1rem #fff,
+    0 0 .1rem #fff,
+    0 0 0.1rem   rgb(0, 119, 255),
+    0 0 0.1rem   rgb(0, 140, 255),
+    0 0 0.5rem    rgb(0, 132, 255),
+    inset 0 0 0.1rem   rgb(0, 60, 255);
+    width: 95%;
+    color: white;
+    background-color: #010307;
+}
+.ball {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    left: 0;
+    animation-name: bounce;
+    animation-duration: 30s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    display: inline-block;
+  }
+  
+  @keyframes bounce {
+    0% {
+      top: 300px;
+      
+    }
+    100% {
+      top: 50px;
+    }
+  }
+.clr-white{
+    box-shadow: 0 0 .1rem #fff,
+                0 0 .1rem #fff,
+                0 0 0.4rem   rgb(255, 255, 255),
+                0 0 0.3rem   rgb(255, 255, 255),
+                0 0 2rem   rgb(255, 255, 255),
+                inset 0 0 0.3rem  rgb(255, 255, 255);
+}
+.clr-blue{
+    box-shadow: 0 0 .1rem #fff,
+                0 0 .1rem #fff,
+                0 0 0.4rem   rgb(0, 110, 255),
+                0 0 0.3rem   rgb(0, 140, 255),
+                0 0 2rem   rgb(0, 162, 255),
+                inset 0 0 0.3rem  rgb(0, 140, 255);
+}
+.clr-violet{
+    box-shadow: 0 0 .1rem #fff,
+                0 0 .1rem #fff,
+                0 0 0.4rem   purple,
+                0 0 0.3rem   purple,
+                0 0 2rem   purple,
+                inset 0 0 0.3rem  purple;
+}
+.square{
+    width: 160px;
+    height: 160px;
+    background-color: #fff;
+    margin: 30px;
+}
+.one{
+    box-shadow: 0 0 .1rem #fff,
+    0 0 .1rem #fff,
+    0 0 0.4rem   rgb(255, 255, 255),
+    0 0 0.3rem   rgb(255, 255, 255),
+    0 0 2rem   rgb(255, 255, 255),
+    inset 0 0 0.3rem  rgb(255, 255, 255);
+    transition: all 0.5s linear;
+}
+.one:hover{
+    width: 130px;
+    height: 130px;
+    transform: rotate(180deg);
+        box-shadow: 0 0 .1rem #fff,
+    0 0 .1rem #fff,
+    0 0 0.4rem   rgb(255, 127, 7),
+    0 0 0.3rem   rgb(255, 127, 7),
+    0 0 2rem   rgb(255, 127, 7),
+    inset 0 0 0.3rem rgb(255, 127, 7);
+}
+.two{
+    box-shadow: 0 0 .1rem #fff,
+    0 0 .1rem #fff,
+    0 0 0.4rem   rgb(0, 255, 170),
+    0 0 0.3rem   rgb(0, 255, 170),
+    0 0 2rem   rgb(0, 255, 170),
+    inset 0 0 0.3rem  rgb(0, 255, 170);
+    transition: all 0.5s linear;
+}
+.two:hover{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    transform: rotate(180deg);
+        box-shadow: 0 0 .1rem #fff,
+    0 0 .1rem #fff,
+    0 0 0.4rem   rgb(85, 255, 7),
+    0 0 0.3rem   rgb(85, 255, 7),
+    0 0 2rem   rgb(85, 255, 7),
+    inset 0 0 0.3rem rgb(85, 255, 7);
+}
+@media screen and (max-width: 1024px) {
+    .title{
+        font-size: 70px;
+        width: 60%;
+    }
+    .assignment-title-content{
+        font-size: 25px;
+    }
+    .ball {
+        width: 70px;
+        height: 70px;
+      }
+      
+      @keyframes bounce {
+        0% {
+          top: 345px;
+          
+        }
+        100% {
+          top: 50px;
+        }
+      }
+  }
+  @media screen and (max-width: 780px) {
+    .title{
+        font-size: 60px;
+        width: 60%;
+    }
+      .ball {
+        width: 50px;
+        height: 50px;
+      }
+      
+      @keyframes bounce {
+        0% {
+          top: 280px;
+          
+        }
+        100% {
+          top: 50px;
+        }
+      }
+      .square{
+        width: 130px;
+        height: 130px;
+      }
+      .one:hover{
+        width: 115px;
+        height: 115px;
+      }
+      .two:hover{
+        width: 115px;
+        height: 115px;
+      }
+  }
+  @media screen and (max-width: 752px) {
+    .navbar a{
+        font-size: 18px;
+        width: 150px;
+    }
+    .block{
+        width: 70px;
+        height: 30px;
+        font-size: 15px;
+    }
+    button{
+        width: 100px;
+        height: 80px;
+        font-size: 15px;
+    }
+  }
+  @media screen and (max-width: 590px) {
+    .navbar a{
+        font-size: 14px;
+        width: 120px;
+    }
+    .square{
+        width: 100px;
+        height: 100px;
+      }
+      .one:hover{
+        width: 80px;
+        height: 80px;
+      }
+      .two:hover{
+        width: 80px;
+        height: 80px;
+      }
+  }
+  @media screen and (max-width: 500px) {
+    .navbar a{
+        font-size: 14px;
+        width: 70px;
+    }
+    .block{
+        width: 50px;
+        height: 20px;
+        font-size: 12px;
+    }
+    button{
+        width: 70px;
+        height: 50px;
+        font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .navbar a{
+        font-size: 14px;
+        width: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 704px) {
+    .title{
+        font-size: 45px;
+        width: 60%;
+    }
+    .pseudo-title{
+        font-size: 40px;
+    }
+    .pseudo-class-title{
+        font-size: 40px;
+    }
+    .p-content-1{
+        font-size: 18px;
+    }
+    .pseudo-ba{
+        font-size: 25px;
+    }
+    .pseudo-ba-1{
+        font-size: 25px;
+    }
+    .p-content-2{
+        font-size: 18px;
+    }
+    .p-content-3{
+        font-size: 18px;
+    }
+    .p-content-4{
+        font-size: 18px;
+    }
+    #list1{
+        font-size: 15px;
+    }
+    #list2{
+        font-size: 15px;
+    }
+    #list3{
+        font-size: 15px;
+    }
+    .first-parent li{
+        font-size: 15px;
+    }
+    .last-parent li{
+        font-size: 15px;
+    }
+    .nth-parent li{
+        font-size: 15px;
+    }
+    #navbar a {
+        font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 544px) {
+    .title{
+        font-size: 50px;
+        width: 100%;
+    }
+    .assignment-title-content{
+        font-size: 18px;
+    }
+    .pseudo-title{
+        font-size: 30px;
+    }
+    .pseudo-class-title{
+        font-size: 30px;
+    }
+    .animation-title{
+        font-size: 30px;
+    }
+    .p-content-1{
+        font-size: 16px;
+        width: 100%;
+    }
+    .p-content-2{
+        font-size: 16px;
+    }
+    .p-content-3{
+        font-size: 16px;
+        width: 100%;
+    }
+    .p-content-4{
+        font-size: 16px;
+    }
+    .p-content-5{
+        font-size: 16px;
+        width: 100%;
+    }
+    .pseudo-ba{
+        font-size: 22px;
+    }
+    .pseudo-ba-1{
+        font-size: 22px;
+    }
+    #navbar a {
+        font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    #navbar a {
+        font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    #navbar a {
+        font-size: 10px;
+    }
+    .square{
+        width: 70px;
+        height: 70px;
+      }
+      .one:hover{
+        width: 50px;
+        height: 50px;
+      }
+      .two:hover{
+        width: 50px;
+        height: 50px;
+      }
+  }
+  @media screen and (max-width: 354px) {
+    .title{
+        font-size: 40px;
+        width: 100%;
+    }
+    .ball {
+        width: 35px;
+        height: 35px;
+      }
+      
+      @keyframes bounce {
+        0% {
+          top: 290px;
+          
+        }
+        100% {
+          top: 50px;
+        }
+      }
+    .assignment-title-content{
+        font-size: 16px;
+    }
+    .pseudo-title{
+        font-size: 25px;
+    }
+    .pseudo-class-title{
+        font-size: 25px;
+    }
+    .animation-title{
+        font-size: 25px;
+    }
+    .p-content-1{
+        font-size: 13px;
+        width: 100%;
+    }
+    .p-content-2{
+        font-size: 13px;
+    }
+    .p-content-3{
+        font-size: 13px;
+        width: 100%;
+    }
+    .p-content-4{
+        font-size: 13px;
+    }
+    .p-content-5{
+        font-size: 13px;
+        width: 100%;
+    }
+    .pseudo-ba{
+        font-size: 20px;
+    }
+    .pseudo-ba-1{
+        font-size: 20px;
+    }
+    .pseudo-ba-2{
+        font-size: 20px;
+    }
+    #navbar a {
+        font-size: 9px;
+    }
+  }
+  .scrollTop{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    padding: 10px 15px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    opacity: 0.7;
+  }
+  .scrollTop:hover{
+    background-color: #fff;
+    color: #000000;
+    border: 2px solid rgb(255, 255, 255);
+    opacity: 1;
+  }
