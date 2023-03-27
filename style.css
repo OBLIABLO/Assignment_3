@@ -21,6 +21,39 @@ hr{
     0 0 2rem rgb(215, 19, 254),
     inset 0 0 0.3rem rgb(215, 19, 254);
 }
+.hr1{
+    height: 1px;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.8rem rgb(254, 19, 223),
+              0 0 0.5rem rgb(254, 19, 223),
+              0 0 2rem rgb(254, 19, 223),
+              inset 0 0 0.3rem rgb(254, 19, 223);
+}
+.hr2{
+    height: 1px;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 0.8rem rgb(51, 105, 255),
+              0 0 0.5rem rgb(51, 105, 255),
+              0 0 2rem rgb(51, 105, 255),
+              inset 0 0 0.3rem rgb(51, 105, 255);
+}
+.hr3{
+    height: 1px;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 0 0 .1rem #fff,
+    0 0 .1rem #fff,
+    0 0 0.8rem rgb(215, 19, 254),
+    0 0 0.5rem rgb(215, 19, 254),
+    0 0 2rem rgb(215, 19, 254),
+    inset 0 0 0.3rem rgb(215, 19, 254);
+}
  .navbar ul{
     list-style: none;
     background: #131313;
@@ -821,6 +854,14 @@ button{
                 0 0 2rem   rgb(255, 255, 255),
                 inset 0 0 0.3rem  rgb(255, 255, 255);
 }
+.clr-white:hover{
+    box-shadow: 0 0 1rem #fff,
+                0 0 1rem #fff,
+                0 0 2rem   rgb(255, 199, 13),
+                0 0 3rem   rgb(255, 199, 13),
+                0 0 4rem   rgb(255, 199, 13),
+                inset 0 0 1rem  rgb(255, 199, 13);
+}
 .clr-blue{
     box-shadow: 0 0 .1rem #fff,
                 0 0 .1rem #fff,
@@ -829,6 +870,14 @@ button{
                 0 0 2rem   rgb(0, 162, 255),
                 inset 0 0 0.3rem  rgb(0, 140, 255);
 }
+.clr-blue:hover{
+    box-shadow: 0 0 1rem #fff,
+                0 0 1rem #fff,
+                0 0 2rem   rgb(0, 245, 192),
+                0 0 3rem   rgb(0, 245, 192),
+                0 0 4rem   rgb(0, 245, 192),
+                inset 0 0 1rem  rgb(0, 245, 192);
+}
 .clr-violet{
     box-shadow: 0 0 .1rem #fff,
                 0 0 .1rem #fff,
@@ -836,6 +885,14 @@ button{
                 0 0 0.3rem   purple,
                 0 0 2rem   purple,
                 inset 0 0 0.3rem  purple;
+}
+.clr-violet:hover{
+    box-shadow: 0 0 1rem #fff,
+                0 0 1rem #fff,
+                0 0 2rem   rgb(245, 0, 143),
+                0 0 3rem   rgb(255, 44, 125),
+                0 0 4rem   rgb(255, 60, 135),
+                inset 0 0 1rem  rgb(248, 70, 138);
 }
 .square{
     width: 160px;
@@ -1181,17 +1238,31 @@ button{
     bottom: 20px;
     right: 10px;
     padding: 10px 15px;
-    background-color: #000000;
-    color: #fff;
-    border-radius: 3px;
-    border: 1px solid rgb(255, 255, 255);
-    cursor: pointer;
-    transition: all 0.5s ease 0s;
-    opacity: 0.7;
+    background-color: #17011d;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid rgb(247, 247, 247);
+    cursor:pointer;
+    transition: all 0.2s ease 0s;
+    opacity: 0.5;
+    font-size: 16px;
+    font-weight: 800;
+    box-shadow: 0 0 .3rem #fff,
+    0 0 .3rem #fff,
+    0 0 1rem   rgb(140, 0, 255),
+    0 0 1rem   rgb(140, 0, 255),
+    0 0 .2rem   rgb(140, 0, 255),
+    inset 0 0 .5rem  rgb(140, 0, 255);
   }
   .scrollTop:hover{
-    background-color: #fff;
-    color: #000000;
+    background-color: #0b0118;
+    color: #e39bff;
     border: 2px solid rgb(255, 255, 255);
     opacity: 1;
+    box-shadow: 0 0 .3rem #fff,
+    0 0 .3rem #fff,
+    0 0 1rem   rgb(76, 0, 255),
+    0 0 1rem   rgb(76, 0, 255),
+    0 0 .2rem   rgb(76, 0, 255),
+    inset 0 0 .5rem  rgb(76, 0, 255);
   }
